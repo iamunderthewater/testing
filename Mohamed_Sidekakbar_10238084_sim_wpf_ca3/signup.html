@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign Up</title>
+<script type="text/javascript" src="script.js"></script>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="signup.css" rel="stylesheet" type="text/css">
+</head>
+<div id="header">Sign<sub><span>Up</span></sub></div>
+	<script>
+	
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "40px";
+  } else {
+    document.getElementById("header").style.fontSize = "140px";
+  }
+}
+
+
+	</script>
+
+<body>
+		
+	<div class="custom-padding">
+        <nav>
+           
+
+            <ul class="menu-area">
+				<li><img src="Assests/images/logo.png" alt="logo" style="height:50px"></li>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="qualitysurviellance.html">Quality Surveillance</a></li>
+				<li><a href="ConstructionManagement.html">Construction Management</a></li>
+				<li><a href="usetechnology.html">Companies</a></li>
+				<li><a href="impacts.html">Impacts & Benefits</a></li>	
+          </ul>
+        </nav>
+</div>
+<form name="myform" method="POST" action ="page7.html" onsubmit="return validateform()" >  
+	<div class="container">
+
+	Saluation: <select id ="Mr" name="Mr">
+		<option value="Mr">Mr</option>
+		<option value="Mrs">Mrs</option>
+		<option value="Miss">Miss</option>
+		<option value="Ms">Ms</option>
+	</select>
+	<br>
+	<br>
+	First Name: <Input type="text" id="name" name="name" placeholder="Enter your first name" size:"40" /> <br>
+	<br>
+	Last Name: <Input type="text" id="name" name="name1" placeholder="Enter your last name" size:"40" /> <br>
+	<br>
+	Enter Email: <input type="email" id="email" name="email" Placeholder= "Email address"/> <br>
+	<br>
+	Enter Phone number: <input type="tel" id="phone" name="phone" Placeholder= "+65 1234 5678"/> <br>
+	<br>
+	Date Of Birth: <input type="date" id="Age" name="Date of birth" /> <br>
+	<br>
+	Gendar : <br>
+<label>Male <input type="radio" id="male" name="gendar" value="Male" /></label>&nbsp&nbsp&nbsp<label>Female<input type="radio" id="female" name="gendar" value="female" /></label><br>
+<br><br>
+<input type="submit" value="Submit Form">
+
+</form>
+</body> 
+	
+	
+	<br>
+	<br>
+		<hr class="style" />
+	<h4>Get connected</h4>
+	<div id="back"> 
+		<a href="impacts.html"><img src="Assests/images/arrow-icon-black-left.png" alt= "previous page" style="height: 50px"></a>&nbsp&nbsp&nbsp
+			<a href="#"><img src="Assests/images/twitter-logo-button.png" alt="Twitter" style="height:50px"></a> &nbsp&nbsp&nbsp
+			<a href="#"><img src="Assests/images/email.png" alt= "email" style="height: 50px"></a>&nbsp&nbsp&nbsp&nbsp
+			<a href="#"><img src="Assests/images/instagram-logo.png" alt="Instagram" style="height: 50px" ></a> &nbsp&nbsp&nbsp
+		<a href="#top"><img src="Assests/images/back_to_top.png" alt="Back to top" style="height:50px"></a><br>
+		<br> </div>
+<footer>
+    <img src="Assests/images/camellogo.png" alt="logo" style="height:50px"> Camel Tech &copy; 2021. All rights Reserved
+</footer>
+</html>
